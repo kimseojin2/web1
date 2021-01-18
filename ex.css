@@ -26,7 +26,7 @@
   }
   .main {
     grid-area: main;
-    font-size: 18px;
+    font-size: 13pt;
     padding-top: 7px;
     padding-left: 15px;
     background-color: #ffff;
@@ -49,13 +49,12 @@
     "main"
     "footer"
      }
-     .main {
-       grid-area: main;
-       font-size: 10px;
-       padding-top: 7px;
-       padding-left: 15px;
+     .header {
+       grid-area: header;
+       text-align: center;
        background-color: #ffff;
-       color:#512c70;
+       color:#43245e;
+       font-size: 10pt
      }
   }
   .header h1 {

@@ -49,6 +49,14 @@
     "main"
     "footer"
      }
+     .main {
+       grid-area: main;
+       font-size: 12px;
+       padding-top: 7px;
+       padding-left: 15px;
+       background-color: #ffff;
+       color:#512c70;
+     }
   }
   .header h1 {
     font-size: 50px;

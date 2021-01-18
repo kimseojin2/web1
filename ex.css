@@ -39,7 +39,7 @@
     background-color: #9b7bbc;
     color: white;
   }
-  @media all and (max-width:575px){
+  @media (min-width:0px) and (max-width:575px){
     .cantainer {
     grid-template-columns: 1fr;
     grid-template-rows: 100px 140px 1fr 100px;

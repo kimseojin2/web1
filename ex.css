@@ -1,0 +1,80 @@
+/* cantainer init*/
+  .cantainer {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    grid-template-rows: 100px 1fr 100px;
+    height: 100vh;
+    grid-gap: 20px;
+    grid-template-areas:
+    "header header"
+    "side main"
+    "footer footer"
+  }
+  /* grid itam*/
+  .header {
+    grid-area: header;
+    text-align: center;
+    background-color: #ffff;
+    color:#43245e;
+  }
+  .side {
+    grid-area: side;
+    font-size: 15px;
+    background-color: #9b7bbc;
+    color: white;
+  }
+  .main {
+    grid-area: main;
+    font-size: 18px;
+    padding-top: 7px;
+    padding-left: 15px;
+    background-color: #ffff;
+    color:#512c70;
+  }
+  .footer {
+    grid-area: footer;
+    padding-left: 10px;
+    padding-top: 3px;
+    background-color: #9b7bbc;
+    color: white;
+  }
+  @media all and (max-width:575px){
+    .cantainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 140px 1fr 100px;
+    grid-template-areas:
+    "header"
+    "side"
+    "main"
+    "footer"
+     }
+  }
+  .header h1 {
+    font-size: 50px;
+    margin-top: 12.5px;
+    color: black;
+  }
+  ul {
+    padding-left: 29px;
+    margin-top: 10px;
+  }
+  li {
+    padding: 2px;
+  }
+ .main h2 {
+   margin: 0px;
+   font-size: 30px;
+ }
+ .main p {
+   margin: 2px;
+ }
+ a {
+   text-decoration: none;
+ }
+ li a {
+   color:white;
+ }
+ body {
+   background: url(bg.jpg);
+ }
